@@ -1,4 +1,4 @@
-package schemas;
+package ru.list.surkovr.schemas;
 
 import lombok.*;
 

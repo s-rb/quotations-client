@@ -1,9 +1,9 @@
-package deserializers;
+package ru.list.surkovr.deserializers;
 
 import com.google.gson.*;
-import schemas.OrderBook;
-import schemas.OrderBookEntry;
-import schemas.Result;
+import ru.list.surkovr.schemas.OrderBook;
+import ru.list.surkovr.schemas.OrderBookEntry;
+import ru.list.surkovr.schemas.Result;
 
 import java.lang.reflect.Type;
 import java.util.LinkedList;

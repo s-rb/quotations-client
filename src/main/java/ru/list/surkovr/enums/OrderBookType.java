@@ -1,4 +1,4 @@
-package enums;
+package ru.list.surkovr.enums;
 
 public enum OrderBookType {
 

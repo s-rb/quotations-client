@@ -1,11 +1,9 @@
-package deserializers;
+package ru.list.surkovr.deserializers;
 
 import com.google.gson.*;
-import schemas.Result;
+import ru.list.surkovr.schemas.Result;
 
 import java.lang.reflect.Type;
-import java.util.LinkedList;
-import java.util.List;
 
 public class SingleResultDeserializer<T> implements JsonDeserializer<Result<T>> {
 

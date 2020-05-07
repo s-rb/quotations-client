@@ -1,4 +1,4 @@
-package schemas;
+package ru.list.surkovr.schemas;
 
 import com.google.gson.annotations.SerializedName;
 import lombok.*;
