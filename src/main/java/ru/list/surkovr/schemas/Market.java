@@ -7,7 +7,6 @@ import lombok.*;
 @AllArgsConstructor
 @Getter
 @Setter
-@ToString
 public class Market {
 
     @SerializedName("MarketCurrency")
@@ -34,4 +33,22 @@ public class Market {
     private boolean isSponsored;
     @SerializedName("LogoUrl")
     private String logoUrl;
+
+    @Override
+    public String toString() {
+        return "Market{" +
+                "marketCurrency='" + marketCurrency + '\'' +
+                ", \nbaseCurrency='" + baseCurrency + '\'' +
+                ", \nmarketCurrencyLong='" + marketCurrencyLong + '\'' +
+                ", \nbaseCurrencyLong='" + baseCurrencyLong + '\'' +
+                ", \nminTradeSize=" + minTradeSize +
+                ", \nmarketName='" + marketName + '\'' +
+                ", \nisActive=" + isActive +
+                ", \nisRestricted=" + isRestricted +
+                ", \ncreated='" + created + '\'' +
+                ", \nnotice='" + notice + '\'' +
+                ", \nisSponsored=" + isSponsored +
+                ", \nlogoUrl='" + logoUrl + '\'' +
+                '}';
+    }
 }
